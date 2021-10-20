@@ -1,0 +1,381 @@
+<html>
+    <head>
+        <title>About Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    </head>
+    <body>
+
+        <header>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+             <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Donation Club</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                        <li><a href="AboutUs.html"><span class="glyphicon glyphicon-book"></span>ABOUT US</a></li>
+                        <li><a href="Contact.html"><span class="glyphicon glyphicon-phone"></span>CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+
+        <section class="about_area section_gap">
+        <div class="container">
+            <div class="row">	
+                <div class="single_about row">
+                    <div class="col-lg-6 col-md-12 text-center about_left">
+                        <div class="about_thumb">
+                            <img src="3.jpg" class="img-fluid" alt="">
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about_right">
+                        <div class="about_content">
+                            <h2>"No One has ever poor by Giving"</h2>
+                            <h2>
+                                We are nonprofit team <br>
+                                    and work worldwide
+                            </h2>
+                            <p>
+                                    The value of life is not in its duration, but in its donation. You are not important because of how long you live, you are important because of how effective you live
+                            </p>
+                            <p>
+                                    We believe in collaboration as we know this work is bigger than
+				    any one organization. We are part of a global network of nonprofit 
+				    organizations leading the worldwide movement. 
+                            </p>
+                            <a href="#" class="primary_btn">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <footer>    
+            <div class="container">  
+              <center>
+                 <p>Copyright &copy; Donation Club. All Rights Reserved  |  Contact Us: +92 3332909812</p> 
+               </center> 
+             </div>
+        </footer> 
+
+    </body>
+</html> 
+ 145  contact.html 
+@@ -0,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+Contact Page
+-->
+<html>
+    <head>
+        <title>CONTACT US</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <style>
+	body{
+            background-image:url("https://images.app.goo.gl/NjvfqTTCjbHpNmMt7");
+            background-repeat: no-repeat;
+            background-size: cover;
+	}		
+	</style>
+
+    </head>
+    <body>
+
+
+         <header>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+             <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Donation Club</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                        <li><a href="AboutUs.html"><span class="glyphicon glyphicon-book"></span>ABOUT US</a></li>
+                        <li><a href="Contact.html"><span class="glyphicon glyphicon-phone"></span>CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+        <script>
+	   function validation()
+	   {
+			var name=document.getElementById("name").value;
+			var email=document.getElementById("email").value;
+			var subject=document.getElementById("subject").value;
+			var message=document.getElementById("message").value;
+
+			if(name=="")
+			{
+				alert("Please Enter Name");
+			}
+			else if(email=="")
+			{
+				alert("Please Enter Email Id");
+			}
+			else if(subject=="")
+			{
+				alert("Please Enter subject");
+			}
+			else if(message=="")
+			{
+				alert("Please Write Message");
+			}
+			else 
+			{
+				alert("Message Send Successfully");
+			}
+	   }
+	   </script>
+       <div>
+        <section class="contact_area section_gap" style="padding:100px 70px 2px 70px;">
+           <h1><a href="#" style="color:yellow;">GET IN TOUCH</a>
+
+           </h1>
+       </div>
+
+           <section class="contact_area section_gap" style="padding:100px 70px 20px 70px;">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+
+                       <div class="info_item">
+                            <i class="glyphicon glyphicon-home"></i>
+                            <h6 style="color:yellow;">Hyderabad</h6>
+                        </div><br>
+                        <div class="info_item">
+                            <i class="glyphicon glyphicon-phone"></i>
+                            <h6><a href="#" style="color:yellow;">03332909812</a></h6>
+                        </div><br>
+                        <div class="info_item">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                            <h6><a href="#" style="color:yellow;">support@donation_club.com</a></h6>
+                        </div><br>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" 
+                                       placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" 
+                                       placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject"
+                                       placeholder="Enter Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" 
+                                          rows="1" placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="btn primary_btn"
+                                    onclick="validation()" >Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+         </section>  
+    </body>
+</html> 
+ 64  donate.html 
+@@ -0,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Donate Page
+-->
+<html>
+    <head>
+        <title>DONATE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <style>
+	    body{
+		background-image:url("15.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	    }
+        </style>
+    </head>
+    <body>
+
+         <header>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+             <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Donation Club</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                        <li><a href="AboutUs.html"><span class="glyphicon glyphicon-book"></span>ABOUT US</a></li>
+                        <li><a href="Contact.html"><span class="glyphicon glyphicon-phone"></span>CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+             <div class="sign-up-form">
+                 <img src="personicon.png">
+		<h1> " Think for good and donate for needy person."</h1>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I6QsAftmvgpll5" async> </script> </form>
+            </div>
+    </body>
+</html> 
+ BIN +139 KB home.png 
+Binary file not shown.
+ 75  index.html 
+@@ -0,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+The Spark Foundation-Task Web Development-Payment Gateway Integration
+-->
+<html>
+    <head>
+        <title>Donation Club</title>
+
+       <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    </head>
+
+    <body>
+
+        <header>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+             <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Donation Club</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                        <li><a href="AboutUs.html"><span class="glyphicon glyphicon-book"></span>ABOUT US</a></li>
+                        <li><a href="Contact.html"><span class="glyphicon glyphicon-phone"></span>CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+          <div id="content">
+            <div id="banner_image">
+                <div class="container">
+                    <center>
+                     <div id="banner_content">
+                         <h1>Give a hand</h1>
+                         <h2>To make the better world </h2>
+                         <br>
+                         <h3 class="upper_text">"One of the best feelings in the world is giving. The positive energy is contagious. With just one act of kindness, you can inspire others to go out and plant seeds of happiness through giving, too.”</h3>
+                         <a href="donate.html"  class="button" class="btn  btn-danger  btn-lg active">
+                            DONATE NOW
+                         </a>
+                     </div>
+                    </center>
+                </div>
+            </div>
+
+        <footer>    
+            <div class="container">  
+              <center>
+                 <p>Copyright &copy; Donation Club. All Rights Reserved  |  Contact Us: +92 3332909812</p> 
+               </center> 
+             </div>
+        </footer> 
+
+    </body>
+</html> 
+ 
